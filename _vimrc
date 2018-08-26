@@ -72,6 +72,9 @@ set whichwrap=b,s,h,l,<,>,[,]
 " start   : 挿入モード開始位置より手前の文字
 set backspace=indent,eol,start
 
+" Nerdtree
+autocmd VimEnter * execute 'NERDTree'
+
 "dein Scripts-----------------------------
 if &compatible
   set nocompatible               " Be iMproved
@@ -91,6 +94,7 @@ if dein#load_state('/Users/andre/.cache/dein')
   " Add or remove your plugins here:
   call dein#add('Shougo/neosnippet.vim')
   call dein#add('Shougo/neosnippet-snippets')
+  call dein#add('scrooloose/nerdtree')
 
   " You can specify revision/branch/tag.
   call dein#add('Shougo/deol.nvim', { 'rev': '01203d4c9' })
