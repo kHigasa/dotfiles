@@ -1,0 +1,13 @@
+[user]
+    name = khigasa
+    email = kojihigasa@gmail.com
+
+[alias]
+    st = status
+    al = add -A
+    cm = commit -m
+    p = push
+    co = checkout
+
+[ghq]
+	root = /home/khigasa/src

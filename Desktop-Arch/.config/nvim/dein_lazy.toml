@@ -1,0 +1,53 @@
+[[plugins]]
+repo = 'Shougo/deoplete.nvim'
+on_event = 'InsertEnter'
+hook_add = '''
+  source ~/.config/nvim/plugins/deoplete.vim
+'''
+
+[[plugins]]
+repo = 'Shougo/unite.vim'
+
+[[plugins]]
+repo = 'Shougo/neomru.vim'
+on_source = ['unite.vim']
+
+[[plugins]]
+repo = 'autozimu/LanguageClient-neovim'
+rev = 'next'
+build = 'bash install.sh'
+hook_add = '''
+  source ~/.config/nvim/plugins/LanguageClient-neovim.vim
+'''
+
+[[plugins]]
+repo = 'roxma/nvim-completion-manager'
+
+[[plugins]]
+repo = 'junegunn/fzf'
+
+[[plugins]]
+repo = "davidhalter/jedi-vim"
+on_ft = ['python']
+
+[[plugins]]
+repo = 'rust-lang/rust.vim'
+repo = 'racer-rust/vim-racer'
+on_ft = ['rust']
+
+[[plugins]]
+repo = 'neovimhaskell/haskell-vim'
+on_ft = ['haskell']
+hook_add = '''
+  source ~/.config/nvim/plugins/haskell-vim.vim
+'''
+
+[[plugins]]
+repo = 'dart-lang/dart-vim-plugin'
+on_ft = ['dart']
+
+[[plugins]]
+repo = 'godlygeek/tabular'
+repo = 'plasticboy/vim-markdown'
+on_ft = ['markdown']
+
