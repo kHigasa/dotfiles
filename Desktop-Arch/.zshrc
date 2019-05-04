@@ -125,3 +125,13 @@ source $ZSH/oh-my-zsh.sh
 
 # opam configuration
 test -r /home/khigasa/.opam/opam-init/init.zsh && . /home/khigasa/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+
+# anaconda path
+export PATH=/home/khigasa/anaconda3/bin:$PATH
+
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
