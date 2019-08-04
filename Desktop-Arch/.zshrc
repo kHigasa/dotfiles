@@ -135,3 +135,6 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
+
+# pip package path
+export PYTHONPATH="$PYTHONPATH:~/.pyenv/versions/3.6.8/lib/python3.6/site-packages/"

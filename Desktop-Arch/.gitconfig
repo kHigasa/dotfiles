@@ -1,6 +1,7 @@
 [user]
     name = khigasa
     email = kojihigasa@gmail.com
+	signingkey = BAE53F7DBC4C919CF5CDAE496E589EC872C670FE
 
 [alias]
     st = status
@@ -11,3 +12,5 @@
 
 [ghq]
 	root = /home/khigasa/src
+[gpg]
+	program = gpg2
