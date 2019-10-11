@@ -126,6 +126,14 @@ source $ZSH/oh-my-zsh.sh
 # opam configuration
 test -r /home/khigasa/.opam/opam-init/init.zsh && . /home/khigasa/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
 
+# android-studio path
+export PATH=/home/khigasa/development/android-studio/bin:$PATH
+# pycharm path
+export PATH=/home/khigasa/development/pycharm/bin:$PATH
+# clion path
+export PATH=/home/khigasa/development/clion/bin:$PATH
+# flutter path
+export PATH=/home/khigasa/development/flutter/bin:$PATH
 # anaconda path
 export PATH=/home/khigasa/anaconda3/bin:$PATH
 
